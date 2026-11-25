@@ -1,6 +1,11 @@
 ## Task
 Link the issue and state the exact claim checked.
 
+## Before running the check
+- Assumptions stated before calculations or code edits:
+- Outcome that would disprove the claim under those assumptions:
+- Changes to the original plan, if any:
+
 ## Result and limits
 State the result in one sentence. What does it not show?
 
