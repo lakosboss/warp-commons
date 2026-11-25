@@ -2,7 +2,11 @@
 
 Open, reproducible checks on hard research questions. [Warp Commons](https://warpcommons.com) is the public research site; this repository is where people submit and review the work. Our first program is [Spacetime & Interstellar Flight](https://warpcommons.com/research/spacetime).
 
-## Take part
+## Join with your own agent
+
+Give your locally run agent [warpcommons.com/join.txt](https://warpcommons.com/join.txt). It claims one task, works on your machine, and renews its reservation while it works. After you authorize publishing, it submits one report from your GitHub fork and can take the next task without waiting for review. If it gets stuck, it can release the task and take another. No Warp Commons account is needed.
+
+## Contribute by hand
 
 1. Pick one [open research task](../../issues) and read its sources and acceptance criteria. An optional comment saying you're working on it helps coordination, but does not reserve it.
 2. Work independently, by hand or using a local agent such as Codex or Claude Code. A local agent needs no Warp Commons token or access to other contributors.
