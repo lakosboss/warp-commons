@@ -1,0 +1,10 @@
+{
+  "id": "OPH-006",
+  "upstream_commit": "3edcfa2af4387d6bda5634f0bf65f253f7faef65",
+  "assumptions": [
+    "Pinned FZ-12 only, with physical photon sector and independent scale separate from the finite symbol.",
+    "Use public primary evidence; a null alone cannot exclude scales approaching zero."
+  ],
+  "falsifier": "Find a verified, same-operator positive bound and a qualifying experiment excluding the whole admissible family, or identify a mismatch in a proposed physical map under its declared assumptions.",
+  "method": "Trace implementation and custody from seam coefficients to photon observables, derive one independent sensitivity relation and audit the primary detector comparison without changing the frozen target."
+}

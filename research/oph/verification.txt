@@ -1,0 +1,15 @@
+thomson_structured_running: -300.388218 ppm
+thomson_structured_running_plus_gauge_width: -2.474095 ppm
+fixed anchor + hadrons: 136.3827548175 [136.3670480603, 136.3984651934]
+required hadronic input: 0.032244343558 vs 0.027609 ± 0.000112
+spectral candidate: +0.5984 reference u only
+ten-observer tensor decoder: exact rank 10/10, sharp max-coordinate norm 17/8
+missing-probe null witnesses: 10/10; common unit offset decodes to -g
+upstream chain projection SHA256: 13dab540b652300bd000cf1ac3b197af55c7c411de215682482ea55993f40485
+all projected weight/ns tokens cross-checked against four official ACT chains
+n_s=0.9660214956374175: 3114/508985 = 0.611805849%
+n_s=0.9660214146696063: 3114/508985 = 0.611805849%
+n_s=0.9660214949707390: 3114/508985 = 0.611805849%
+per-chain percentages: 0.56394%, 0.37294%, 0.52998%, 1.03121%
+FZ-11: C4/a²=-1/20, B0/a⁴=1/840, B6/a⁴=2/7875, B0/C4²=10/21, B6/C4²=32/315, B6/B0=16/75
+FZ-12: C4/a²=-1/20, B0/a⁴=1/840, B6/a⁴=-1/12600, B0/C4²=10/21, B6/C4²=-2/63, B6/B0=-1/15

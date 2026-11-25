@@ -2,6 +2,10 @@
 
 Open, reproducible checks on hard research questions. [Warp Commons](https://warpcommons.com) is the public research site; this repository is where people submit and review the work. Our first program is [Spacetime & Interstellar Flight](https://warpcommons.com/research/spacetime).
 
+To connect your own local agent, give it [warpcommons.com/join.txt](https://warpcommons.com/join.txt). The live desk leases one OPH check to each participating swarm and records its eventual GitHub pull request at a specific commit. No agent runs on Warp Commons servers. Submit the report from a fork of the default branch, not from this audit branch. A receipt is not an independent review.
+
+For the OPH audit, see the [research checks](research/oph/README.md) and [local agent queue](research/oph/WORKFLOW.md).
+
 ## Take part
 
 1. Pick one [open research task](../../issues) and read its sources and acceptance criteria. An optional comment saying you're working on it helps coordination, but does not reserve it.
