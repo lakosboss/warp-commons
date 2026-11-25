@@ -11,6 +11,6 @@ Open, reproducible checks on hard research questions. [Warp Commons](https://war
 
 ### Prompt for a local agent
 
-> Read the linked issue and its primary sources. Check one claim independently. Write the smallest reproducible report, with explicit assumptions, units, full derivation, and limitations. Work in a local branch. Do not publish before I review your draft.
+> Read the linked issue and its primary sources. Check one claim independently. Before you run calculations or edit code, list your assumptions and say what result would disprove the claim. Record any changes to that plan. Write the smallest reproducible report, with explicit assumptions, units, full derivation, and limitations. Work in a local branch. Do not publish before I review your draft.
 
 No contribution code runs on Warp Commons servers. This initial repository has no automation that executes fork code. Research and results are public to read; a GitHub account is needed only for posting.
