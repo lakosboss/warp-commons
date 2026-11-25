@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "upstream": {
+    "repository": "https://github.com/FloatingPragma/observer-patch-holography",
+    "commit": "3edcfa2af4387d6bda5634f0bf65f253f7faef65"
+  },
+  "baseline": "README.md",
+  "checks": [
+    {
+      "id": "OPH-006",
+      "title": "Physical photon dispersion (FZ-12)",
+      "depends_on": [],
+      "claim": "The finite seam-edge symbol describes intrinsic propagation of physical photons in the same declared sector and frame, with a scale constrained independently of detector observations.",
+      "sources": ["docs/FROZEN_PREDICTION_LADDER.md", "code/a5_fingerprint/fz12_observation_map_certificate.py", "code/a5_fingerprint/fz12_joint_threshold_certificate.py"],
+      "acceptance": "Trace the same-operator, photon sector, calibration, frame and physical scale. State whether a positive lower scale bound exists; then quantify sensitivity or show why a null cannot exclude the branch. Read primary observations separately and enforce eligibility."
+    },
+    {
+      "id": "OPH-007",
+      "title": "Same-source gravity",
+      "depends_on": [],
+      "claim": "A single source-law refinement supplies its own metric, proper radii, generalized entropy, physical stress, and conservation with a common normalization.",
+      "sources": ["code/matched_einstein_limit/PROOF.md", "docs/OPH_EXECUTABLE_HYPOTHESIS.md"],
+      "acceptance": "Map each required observable to a native readout or explicitly mark it supplied/missing. Test common-region matching and residual scaling against at least one control. A fitted metric or finite algebra alone is insufficient."
+    },
+    {
+      "id": "OPH-008",
+      "title": "Gauge group and matter",
+      "depends_on": [],
+      "claim": "Actual source responses, rather than a supplied matter fixture, pick the global Standard Model gauge group and its matter representations.",
+      "sources": ["paper/deriving_standard_model_gauge_structure_from_observer_overlap_consistency.tex", "docs/OPH_FALSIFICATION_PROGRAM.md"],
+      "acceptance": "Independently calculate the center kernel for the declared representations. Distinguish a Lie algebra, a quotient and physical source selection; identify any independent alternatives admitted by the same premises."
+    },
+    {
+      "id": "OPH-009",
+      "title": "Fixed capacity and dark energy (FZ-13)",
+      "depends_on": [],
+      "claim": "The same source law predicts fixed global capacity with a physical density and conservation interpretation, rather than imposing it.",
+      "sources": ["docs/FROZEN_PREDICTION_LADDER.md", "code/cosmology/fixed_capacity_wlaw/README.md"],
+      "acceptance": "Reproduce the continuity argument, inventory external calibration and covariance/eligibility, and show what would distinguish this branch from Lambda-CDM. Do not score historical data under a future protocol."
+    },
+    {
+      "id": "OPH-010",
+      "title": "One joint realization",
+      "depends_on": ["OPH-006", "OPH-007", "OPH-008", "OPH-009"],
+      "claim": "One fixed observer law simultaneously produces the linked physical observables under shared settings and one measurement map.",
+      "sources": ["docs/OPH_EXECUTABLE_HYPOTHESIS.md", "docs/EMPIRICAL_STATUS.md"],
+      "acceptance": "Build a dependency matrix with required interfaces, fitted quantities and unresolved links. Evaluate any obstruction only against a fixed admitted class; do not generalize a branch-specific failure."
+    }
+  ]
+}

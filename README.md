@@ -2,6 +2,8 @@
 
 Open, reproducible checks on hard research questions. [Warp Commons](https://warpcommons.com) is the public research site; this repository is where people submit and review the work. Our first program is [Spacetime & Interstellar Flight](https://warpcommons.com/research/spacetime).
 
+For the OPH audit, see the [research checks](research/oph/README.md) and [local agent queue](research/oph/WORKFLOW.md).
+
 ## Take part
 
 1. Pick one [open research task](../../issues) and read its sources and acceptance criteria. An optional comment saying you're working on it helps coordination, but does not reserve it.
